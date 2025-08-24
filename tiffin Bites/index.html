@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffin Bites</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" 
+    integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <link rel="stylesheet" href="./style.css">
+<body>
+    <!--!HOME PAGE STARTS FROM HERE-->
+    <section id="home_page">
+        <nav id="nav">
+            <aside id="nav_one">
+                <h2 id="logo">TiffinBites</h2>
+            </aside>
+            <aside id="nav_two">
+                <a href="#menu_page">Menu</a>
+                <a href="#about_page">About</a>
+                <a href="#feedback_page">Feedback</a>
+            </aside>
+            <aside id="nav_three">
+                 <i class="ri-shopping-cart-2-line" id="cart_icon"></i>
+                 <div id="quantity">0</div>
+                 <p id="price">₹0.00</p>
+            </aside>
+        </nav>
+        <header>
+            <h1 id="tagline">
+                Fuel Your Day with <br> Flavourful Tiffins! 
+            </h1>
+            <button id="explore_btn">Explore Menu</button>
+        </header>
+    </section>
+    <!--!HOME PAGE ENDS HERE-->
+
+    <!--!CART POPUP STARTS HERE-->
+    <main>
+        <section id="popup_container">
+            <h2>Your Order Summary</h2>
+            <div id="cart_Details">No items in the cart</div>
+            <hr>
+            <p id="cart_Total_Items">Total items : <span>0</span></p>
+            <p id="cart_Total_Price">Total price : ₹<span>0.00</span></p>
+            <button>Close</button>
+        </section>
+    </main>
+  <!--!CART POPUP STARTS HERE-->
+
+    <!--!MENU PAGE STARTS HERE-->
+    <section id="menu_page">
+        <aside id="menu_one">
+            <h2>Menu</h2>
+            <input type="text" id="search_field" placeholder="Search Tiffins...">
+        </aside>
+        <aside id="menu_two">
+            <article class="card_container" id="idli">
+                <img src="./assets/WhatsApp Image 2025-06-19 at 2.14.53 PM (3).jpeg" alt="Idli" class="food_img">
+                <h2 class="food_title">Idli</h2>
+                <h4 class="food_price">₹40</h4>
+                <div class="food_quantity">
+                    <button class="quantity_btns">-</button>
+                    <span>0</span>
+                    <button class="quantity_btns">+</button>
+                </div>
+            </article>
+            <article class="card_container" id="pesarattu"> 
+                <img src="./assets/WhatsApp Image 2025-06-19 at 2.14.53 PM (2).jpeg" alt="Pesarattu" class="food_img">
+                <h2 class="food_title">Pesarattu</h2>
+                <h4 class="food_price">₹40</h4>
+                <div class="food_quantity">
+                    <button class="quantity_btns">-</button>
+                    <span>0</span>
+                    <button class="quantity_btns">+</button>
+                </div>
+            </article>
+            <article class="card_container" id="dosa">
+                <img src="./assets/WhatsApp Image 2025-06-19 at 2.14.53 PM (5).jpeg" alt="Dosa" class="food_img">
+                <h2 class="food_title">Dosa</h2>
+                <h4 class="food_price">₹45</h4>
+                <div class="food_quantity">
+                    <button class="quantity_btns">-</button>
+                    <span>0</span>
+                    <button class="quantity_btns">+</button>
+                </div>
+            </article>
+            <article class="card_container" id="bonda">
+                <img src="./assets/WhatsApp Image 2025-06-19 at 2.15.34 PM.jpeg" alt="Bonda" class="food_img">
+                <h2 class="food_title">Bonda</h2>
+                <h4 class="food_price">₹45</h4>
+                <div class="food_quantity">
+                    <button class="quantity_btns">-</button>
+                    <span>0</span>
+                    <button class="quantity_btns">+</button>
+                </div>
+            </article>
+            <article class="card_container" id="puri">
+                <img src="./assets/WhatsApp Image 2025-06-19 at 2.15.05 PM.jpeg" alt="Puri" class="food_img">
+                <h2 class="food_title">Puri</h2>
+                <h4 class="food_price">₹40</h4>
+                <div class="food_quantity">
+                    <button class="quantity_btns">-</button>
+                    <span>0</span>
+                    <button class="quantity_btns">+</button>
+                </div>
+            </article>
+            <article class="card_container" id="wada">
+                <img src="./assets/WhatsApp Image 2025-06-19 at 2.14.53 PM (6).jpeg" alt="Wada" class="food_img">
+                <h2 class="food_title">Wada</h2>
+                <h4 class="food_price">₹45</h4>
+                <div class="food_quantity">
+                    <button class="quantity_btns">-</button>
+                    <span>0</span>
+                    <button class="quantity_btns">+</button>
+                </div>
+            </article>
+            <article class="card_container" id="poha">
+                <img src="./assets/WhatsApp Image 2025-06-19 at 2.14.53 PM (4).jpeg" alt="Poha" class="food_img">
+                <h2 class="food_title">Poha</h2>
+                <h4 class="food_price">₹30</h4>
+                <div class="food_quantity">
+                    <button class="quantity_btns">-</button>
+                    <span>0</span>
+                    <button class="quantity_btns">+</button>
+                </div>
+            </article>
+            <article class="card_container" id="raava dosa">
+                <img src="./assets/WhatsApp Image 2025-06-19 at 2.14.53 PM.jpeg" alt="Raava Dosa" class="food_img">
+                <h2 class="food_title">Raava Dosa</h2>
+                <h4 class="food_price">₹45</h4>
+                <div class="food_quantity">
+                    <button class="quantity_btns">-</button>
+                    <span>0</span>
+                    <button class="quantity_btns">+</button>
+                </div>
+            </article>
+            <article class="card_container" id="masala dosa">
+                <img src="./assets/WhatsApp Image 2025-06-19 at 2.14.53 PM (7).jpeg" alt="Masala Dosa" class="food_img">
+                <h2 class="food_title">Masala Dosa</h2>
+                <h4 class="food_price">₹50</h4>
+                <div class="food_quantity">
+                    <button class="quantity_btns">-</button>
+                    <span>0</span>
+                    <button class="quantity_btns">+</button>
+                </div>
+            </article>
+            <article class="card_container" id="upma">
+                <img src="./assets/WhatsApp Image 2025-06-19 at 2.14.52 PM.jpeg" alt="Upma" class="food_img">
+                <h2 class="food_title">Upma</h2>
+                <h4 class="food_price">₹30</h4>
+                <div class="food_quantity">
+                    <button class="quantity_btns">-</button>
+                    <span>0</span>
+                    <button class="quantity_btns">+</button>
+                </div>
+            </article>
+            <article class="card_container" id="uttapam">
+                <img src="./assets/WhatsApp Image 2025-06-19 at 2.14.53 PM (1).jpeg" alt="Uttapam" class="food_img">
+                <h2 class="food_title">Uttapam</h2>
+                <h4 class="food_price">₹35</h4>
+                <div class="food_quantity">
+                    <button class="quantity_btns">-</button>
+                    <span>0</span>
+                    <button class="quantity_btns">+</button>
+                </div>
+            </article>
+            <article class="card_container" id="pongal">
+                <img src="./assets/WhatsApp Image 2025-06-19 at 2.14.52 PM (1).jpeg" alt="Pongal" class="food_img">
+                <h2 class="food_title">Pongal</h2>
+                <h4 class="food_price">₹40</h4>
+                <div class="food_quantity">
+                    <button class="quantity_btns">-</button>
+                    <span>0</span>
+                    <button class="quantity_btns">+</button>
+                </div>
+            </article>
+        </aside> -->
+    </section>
+    <!--!MENU PAGE ENDS HERE-->
+
+    <!--!ABOUT PAGE STARTS HERE-->
+    <section id="about_page">
+        <aside id="about_one">
+            <img src="./assets/Tiffin-Background.png" alt="about_img" id="about_img">
+        </aside>
+        <aside id="about_two">
+            <h2 id="about_us">About Us</h2>
+            <p  class="about_paras" id="para1"><b>Welcome to TiffinBites,</b> your go-to destination for authentic 
+                South Indian flavors in the heart of Hyderabad!
+                 We serve delicious home-style meals made fresh every day.</p>
+            <p class="about_paras" id="para2"><b>Our Story: </b>Born out of a love for traditional food, 
+                TiffinBites began as a small family-run venture aiming to bring homely and hygienic 
+                tiffin to busy working professionals and students.</p>
+            <p class="about_paras" id="para3"><b>Timings: 7:00 AM - 10:00 PM (All days)</b></p>
+            <p class="about_paras" id="para4"><b>Location: Chaitanyapuri, Hyderabad, Telangana, India</b></p>
+            <article id="testimonal">“We care about your hunger as much as we care about taste. 
+                One bite at a time, we make your day better!” </article>
+                <article id="social_media_icons">
+                     <div class="icon">
+                         <i class="ri-facebook-line"></i>
+                     </div>
+                    <div class="icon">
+                         <i class="ri-instagram-line"></i>
+                     </div>
+                    <div class="icon">
+                        <i class="ri-whatsapp-line"></i>
+                    </div>
+                </article>
+            
+        </aside>
+    </section>
+    <!--!ABOUT PAGE ENDS HERE-->
+
+    <!--!FEEDBACK PAGE STARTS HERE-->
+    <section id="feedback_page">
+        <aside id="feedback_one">
+            <h3>Tiffin Bites</h3>
+            <p>Your Feedback helps us to serve you better</p>
+        </aside>
+        <aside id="feedback_two">
+            <h2>Feedback Form</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" >
+                <input type="hidden" name="access_key" value="b2d219ce-0f48-4ff5-9765-0b44904628c3">
+
+                <div class="form_field">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <div class="form_field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form_field">
+                    <label for="ratings">Ratings</label>
+                    <select name="ratings" id="ratings">
+                       <option disabled selected>Choose Ratings</option>
+                       <option>5(Excellent)</option>
+                       <option>4(Good)</option>
+                       <option>3(Bad)</option>
+                       <option>2(Poor)</option>
+                       <option>1(Worst)</option>
+                    </select>
+                </div>
+                <div class="form_field">
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments" placeholder="Add your valuable feedback..."></textarea>
+                </div>
+                <div class="form_field" >
+                    <input type="submit" value="Submit Feedback" id="submit_feedback">
+                </div>
+            </form>
+        </aside>
+        <aside id="feedback_three">
+            <p>&copy;Tiffin Bites | All Rights Reserved</p>
+        </aside>
+    </section>
+    <!--!FEEDBACK PAGE ENDS HERE-->
+
+    <script src="./script.js"></script>
+</body>
+</html>
